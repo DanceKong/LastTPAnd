@@ -10,6 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/endp" />
             <option value="$PROJECT_DIR$/teamproject" />
             <option value="$PROJECT_DIR$/webapp" />
           </set>

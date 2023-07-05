@@ -28,16 +28,18 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/menu"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="버튼 1" />
+                android:text="메뉴" />
 
             <Button
+                android:id="@+id/button_login"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="버튼 2" />
+                android:text="로그인" />
         </LinearLayout>
 
         <LinearLayout
@@ -47,16 +49,18 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/orderlist"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="버튼 3" />
+                android:text="주문 내역" />
 
             <Button
+                android:id="@+id/map"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="버튼 4" />
+                android:text="주변 매장 찾기" />
         </LinearLayout>
     </LinearLayout>
 
