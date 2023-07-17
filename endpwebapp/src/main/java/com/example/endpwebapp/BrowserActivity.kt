@@ -38,7 +38,7 @@ class BrowserActivity : Activity() {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             val d = AlertDialog.Builder(this)
             d.setTitle("프로그램을 종료 하시겠습니까?")
-            d.setMessage("'카페' \n http://192.168.100.57:8090 으로 컴퓨터에서 접속하면 편리하게 보실 수 있습니다.  \n\n종료하시려면 '예' 버튼을 눌러주세요.")
+            d.setMessage("컴퓨터에서 접속하면 편리하게 보실 수 있습니다.  \n\n종료하시려면 '예' 버튼을 눌러주세요.")
 //            d.setIcon(R.drawable.ic_launcher)
             d.setPositiveButton(
                 "아니요"
